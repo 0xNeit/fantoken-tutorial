@@ -1,0 +1,9 @@
+[package]
+name = 'fan-token'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/davidiw/aptos-core.git'
+rev = 'conversions'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+admin = '0x06f08f79eef49ae6a338a732329e9502a5a87aae0bc48a3690a92bc1007b905f'
